@@ -1,16 +1,35 @@
-# React + Vite
+## Documentation de TaskFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Application Web de gestion des taches en permettant l'ajout, l'affichage, voir les details d'une tache
 
-Currently, two official plugins are available:
+## Technologies utilisees
+* React + Vite
+* JavaScript 
+* CSS 
+* React Router pour la navigation entre les pages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Installation du projet
+*1.* cloner le projet
+```
+git clone https://github.com/SaadioFongangRoosevelt/TaskFlow.git
+```
+*2.* Acceder au projet
+*3.* Installer les dependances du projet en tapant ceci dans le terminal
+```
+npm install
+```
+## Lancement du projet
+Dans le terminal tapez: 
 
-## React Compiler
+```
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+puis ouvrez le navigateur et tapez le lien genere dans le terminal 
+par defaut vite lance sur le port 5173 donc vous aurez un lien du genre http://localhost:5173
 
-## Expanding the ESLint configuration
+## Auteur
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#### SAADIO FONGANG ROOSEVELT
+
+Eleve Ingenieur en Genie Logiciel IC3 de l'ENSPM 
